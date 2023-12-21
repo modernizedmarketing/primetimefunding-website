@@ -82,6 +82,7 @@ li:hover {
 }
 
 .containerText {
+    width: 650px;
     margin-bottom: 65px;
 }
 
@@ -97,14 +98,18 @@ li:hover {
 
 .imgBackground {
     position: absolute;
-    top: 270px;
     width: 420px;
+    top: 78px;
+ 
 }
 
 .imageSize {
     position: relative;
     height: 550px;
-   
+}
+
+.baseBackground {
+    position: relative;
 }
 
 .containerSecond {
