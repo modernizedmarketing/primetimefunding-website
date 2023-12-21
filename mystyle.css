@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, p {
 h1 {font-size: 50px;}
 h3 { font-size: 40px;}
 
-.header-menu {
+.headerMenu {
     width: 100%;
     height: 80px;
     display: flex;
@@ -26,7 +26,7 @@ h3 { font-size: 40px;}
     height: 45px;
 }
 
-.menu-items {
+.menuItems {
     width: 1243px;
     display: flex;
     align-items: center;
@@ -70,28 +70,28 @@ li:hover {
     padding-top: 56px;
 }
 
-.correct-containerFirst {
+.correctContainerFirst {
     width: 1243px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.container-color {
+.containerColor {
     background-color: black;
 }
 
-.container-text {
+.containerText {
     margin-bottom: 65px;
 }
 
-.container-text, h1 {
+.containerText, h1 {
     color: white;
     font-weight: 800;
     line-height: 60px;
 }
 
-#purple-color {
+#purpleColor {
     color: #885AEF;
 }
 
@@ -101,7 +101,7 @@ li:hover {
     width: 420px;
 }
 
-.image-size {
+.imageSize {
     position: relative;
     height: 550px;
    
@@ -123,7 +123,7 @@ li:hover {
     justify-content: center;
 }
 
-.correct-containerSecond {
+.correctContainerSecond {
     width: 1243px;
     display: flex;
     align-items: center;
@@ -197,7 +197,7 @@ li:hover {
     height: 40px;
 }
 
-.container-dialog {
+.containerDialog {
     padding: 28px 50px;
     border: 1px solid #885AEF;
     border-radius: 30px;
