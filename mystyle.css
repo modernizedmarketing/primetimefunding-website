@@ -323,3 +323,79 @@ button {
 #copyright {
   padding: 50px 0px;
 }
+
+@media only screen and (max-width: 640px)  {
+
+  .menuItems {
+    width: auto;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .correctContainerFirst {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .containerText {
+    width: 80%;
+  }
+
+  .getReady {
+    width: 85%;
+  }
+
+  .containerClock {
+    padding: 0px 60px;
+  }
+
+  .clock {
+    flex-direction: column;
+    width: 100%;
+ 
+  }
+
+  .clockNumber {
+    padding: 10px 0px;
+  }
+
+  #vectorGap {
+    display: none;
+  }
+
+  #eachDayClock {
+    padding: 20px 0px;
+  }
+
+  .correctContainerSecond {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .container-textTwo {
+    width: 85%;
+  }
+
+  .textFont {
+    margin-bottom: 20px;
+  }
+
+  .containerDialog {
+    width: 100%;
+  }
+
+  .dialogCheck {
+    padding: 20px 15px;
+  }
+
+  .imageSizeComputer {
+    height: 230px;
+  }
+
+  #footerContent {
+    padding: 30px 0px;
+  }
+}
