@@ -352,6 +352,10 @@ button {
     padding: 0px 60px;
   }
 
+  #paragraphOne {
+    padding: 0px;
+  }
+
   .clock {
     flex-direction: column;
     width: 100%;
