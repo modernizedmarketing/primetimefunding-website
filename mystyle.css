@@ -306,6 +306,10 @@ button {
   margin: 0px 8px;
 }
 
+.circleFooter:hover {
+  background-color: #885AEF;
+}
+
 #socialIcon {
   height: 22px;
 }
