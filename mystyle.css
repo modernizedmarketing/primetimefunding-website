@@ -12,6 +12,15 @@ h1, h2, h3, h4, h5, p {
 h1 {font-size: 50px;}
 h3 { font-size: 40px;}
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #8658E4;
+}
+
 .headerMenu {
   width: 100%;
   height: 80px;
@@ -96,10 +105,15 @@ li:hover {
   color: #885AEF;
 }
 
+.gallery-slideshow{
+  display: block;
+   width: 100%;
+   margin: auto;
+ }
+
 .imgBackground {
   position: absolute;
   width: 420px;
-  top: 78px;
 }
 
 .imageSize {
@@ -125,6 +139,7 @@ li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 60px 0px;
 }
 
 .correctContainerSecond {
@@ -132,7 +147,6 @@ li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 80px 0px;
 }
 
 .getReady {
@@ -208,6 +222,8 @@ li:hover {
   margin-left: 46px;
   width: 506px;
 }
+
+
 
 .textFont {
   font-weight: 900;
@@ -324,7 +340,7 @@ button {
   padding: 50px 0px;
 }
 
-@media only screen and (max-width: 640px)  {
+@media only screen and (max-width: 1260px)  {
 
   .menuItems {
     width: auto;
@@ -349,7 +365,7 @@ button {
   }
 
   .containerClock {
-    padding: 0px 60px;
+    padding: 0px;
   }
 
   #paragraphOne {
@@ -357,17 +373,13 @@ button {
   }
 
   .clock {
-    flex-direction: column;
+    contain: layout;
     width: 100%;
- 
   }
 
   .clockNumber {
     padding: 10px 0px;
-  }
-
-  #vectorGap {
-    display: none;
+    width: 100px;
   }
 
   #eachDayClock {
@@ -384,7 +396,7 @@ button {
   }
 
   .textFont {
-    margin-bottom: 20px;
+    margin-left: 20px;
   }
 
   .containerDialog {
@@ -401,5 +413,14 @@ button {
 
   #footerContent {
     padding: 30px 0px;
+  }
+  .correctContainerSecond{
+    flex-direction: column-reverse;
+  }
+
+  .div-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

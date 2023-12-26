@@ -21,9 +21,9 @@
             <div class="navigation">
               <ul>
                 <li>Home</li>
-                <li>Countdown</li>
-                <li>Why tune In?</li>
-                <li>Subscription</li>
+                <li><a href="#countDown">Countdown</a></li>
+                <li><a href="#tuneIn">Why tune In?</a></li>
+                <li><a href="#subscription">Subscription</a></li>
               </ul>
             </div>
           </div>
@@ -32,7 +32,7 @@
 
     <main>
         <!-- Fist section -->
-      <section class="containerFirst containerColor">
+      <section class="containerFirst containerColor" >
         <div class="correctContainerFirst">
           <div class="containerText">
             <h1 id="purpleColor">Discover the PrimeTime   </h1>
@@ -40,12 +40,27 @@
           </div>
           <div class="baseBackground">
             <img class="imgBackground" src="./images/bg-purple.svg"/>
-            <img src="./images/person1.png" class="imageSize" alt="Image-Carrousel"/>
+
+            <div class="carrousel">
+              <div class="gallery-slideshow">
+                <img src="./images/person1.png" class="imageSize gallery-slides" alt="Image-Carrousel"/>
+              </div>
+                
+              <div class="mySlides gallery-slideshow">
+                <img src="./images/person2.png" class="imageSize gallery-slides" alt="Image-Carrousel"/>
+              </div>
+                
+              <div class="mySlides  gallery-slideshow">
+                <img src="./images/mobile.png" class="imageSize gallery-slides" alt="Image-Carrousel"/>
+              </div>
+            </div>  
+            
           </div>
         </div>
       </section>
+
         <!-- Second section  -->
-        <section class="containerSecond">
+        <section class="containerSecond" id="countDown">
           <div class="getReady">
             <h3 id="titleGetReady">Get Ready for the Big Reveal!</h3>
             <p id="paragraphOne">
@@ -78,41 +93,46 @@
                 </span>
               </div> 
             </div>
-          
           </div>
         </section>
+
+
         <!-- Third section  -->
-        <section class="containerThird">
-          <div class="correctContainerSecond">
-            <div class="container-textTwo">
+        <section class="containerThird" id="tuneIn">
+          <div>
+            <div class="div-center">
               <h3 class="textFont">
                 <span id="purpleColor">Why</span> 
                 Tune In?
               </h3>
-              <div class="dialogCheck">
+            </div>
+           
+            <div class="correctContainerSecond">
+              <div class="container-textTwo">
+                <div class="dialogCheck">
                   <div class="circle">
                     <img id="iconSize" src="./images/icon _check circle.png" alt="icon-check"/>
                   </div>
                   <div class="containerDialog">
                     <p>Exclusive Insights: Learn the ins and outs of PrimeTime Trading.</p>
                   </div>
-              </div>
-              <div class="dialogCheck">
-                <div class="circle">
-                  <img id="iconSize" src="./images/icon _check circle.png" alt="icon-check"/>
                 </div>
-                <div class="containerDialog">
-                  <p>Live Q&A with Swaggy: Ask your burning questions and get real-time answers.</p>
+                <div class="dialogCheck">
+                  <div class="circle">
+                    <img id="iconSize" src="./images/icon _check circle.png" alt="icon-check"/>
+                  </div>
+                  <div class="containerDialog">
+                    <p>Live Q&A with Swaggy: Ask your burning questions and get real-time answers.</p>
+                  </div>
               </div>
             </div>
-          </div>
             <div>
               <img class="imageSizeComputer" src="./images/computer.png" alt="computer"/>
             </div>
           </div>
         </section>
         <!-- Subscribe  -->
-        <section class="containerSubs">
+        <section class="containerSubs" id="subscription">
           <div class="subs">
             <h2 id="titleSubs">
               <span id="purpleColor">Ready to be Part</span> 
@@ -121,11 +141,11 @@
             <p id="parContent">
               Enter your email below and be part of trading’s bright future with Swaggy and PrimeTime Trading!
             </p>
-            <div id="subscribeInput">
-              <input>
-              <button>Sign Me Up</button>
-            </div>
-           
+            
+            <form  id="contactForm subscribeInput">
+              <input type="email" id="email" name="email" placeholder="Email">
+            </form>
+            <button  onclick="sendForm()" >Sign Me Up</button>
           </div>
         </section>
     </main>
@@ -160,5 +180,7 @@
     </footer>
     
 </body>
-<script src="clockTime.js"></script>
+  <script src="script.js"></script>
+  <script src="carrousel.js"></script>
+  <script src="subscribeEmail.js"></script>
 </html>

@@ -20,3 +20,4 @@ function countDown() {
   secondsEl.innerText = seconds;
 
 } setInterval(countDown, 1000);
+
